@@ -1,3 +1,7 @@
 # touch-action
 
-> Disable 300ms delay on mobile using CSS touch-action when possible or async download and use FastClick as polyfill.
+> Disable 300ms delay on mobile using CSS touch-action when property is supported or asynchronously download FastClick as polyfill.
+
+## License
+
+[MIT]('./LICENSE')
