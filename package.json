@@ -1,0 +1,25 @@
+{
+  "name": "touch-action",
+  "version": "1.0.0",
+  "description": "Disable 300ms delay on mobile using CSS touch-action when possible or async download and use FastClick as polyfill",
+  "repository": "alekseykulikov/touch-action",
+  "license": "MIT",
+  "keywords": [
+    "touch-action",
+    "fastclick",
+    "css",
+    "300ms",
+    "mobile"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^5.0.1"
+  }
+}

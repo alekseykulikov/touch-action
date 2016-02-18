@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb/base",
+  "rules": {
+    "semi": [2, "never"],
+    "no-use-before-define": [2, "nofunc"],
+    "no-param-reassign": 0,
+    "id-length": 0,
+    "max-len": 0
+  }
+}
