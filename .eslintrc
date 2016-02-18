@@ -1,5 +1,5 @@
 {
-  "extends": "airbnb/base",
+  "extends": "airbnb/legacy",
   "rules": {
     "semi": [2, "never"],
     "no-use-before-define": [2, "nofunc"],
