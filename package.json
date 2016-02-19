@@ -2,7 +2,7 @@
   "name": "touch-action",
   "version": "1.0.0",
   "description": "Disable 300ms delay on mobile using CSS touch-action when property is supported or asynchronously download FastClick as polyfill",
-  "repository": "alekseykulikov/touch-action",
+  "repository": "https://github.com/alekseykulikov/touch-action",
   "license": "MIT",
   "keywords": [
     "touch-action",
@@ -11,15 +11,19 @@
     "300ms",
     "mobile"
   ],
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
-    "index.js"
+    "src/index.js"
   ],
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint src/index.js"
   },
   "devDependencies": {
     "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^5.0.1"
-  }
+    "eslint-config-airbnb": "^5.0.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.2"
+  },
+  "dependencies": {}
 }
