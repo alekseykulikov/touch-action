@@ -11,6 +11,18 @@ This library is just [17 lines of code](./index.js) and 14x smaller than FastCli
 
 This module is inspired by [gajus's gist](https://gist.github.com/gajus/bbf06ea2e37047b01e70).
 
+## Installation
+
+    npm install touch-action --save
+    bower install touch-action
+
+Standalone version available as [dist/touch-action.min.js](./dist/touch-action.min.js).
+
+```html
+<script src="touch-action.min.js"></script>
+<script>window.touchAction()</script>
+```
+
 ## Example
 
 ```js
