@@ -16,10 +16,13 @@
     "index.js"
   ],
   "scripts": {
+    "build": "browserify index.js -s touchAction > dist/touch-action.js && uglifyjs dist/touch-action.js -m > dist/touch-action.min.js",
     "test": "eslint index.js"
   },
   "devDependencies": {
+    "browserify": "^13.0.0",
     "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^5.0.1"
+    "eslint-config-airbnb": "^5.0.1",
+    "uglify-js": "^2.6.1"
   }
 }
