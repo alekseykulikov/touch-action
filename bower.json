@@ -1,7 +1,8 @@
 {
   "name": "touch-action",
   "description": "Disable 300ms delay on mobile using CSS touch-action when property is supported or asynchronously download FastClick as polyfill",
-  "main": "index.js",
+  "main": "dist/touch-action.js",
+  "homepage": "https://github.com/alekseykulikov/touch-action",
   "authors": [
     "Aleksey Kulikov"
   ],
@@ -13,15 +14,8 @@
     "300ms",
     "mobile"
   ],
-  "homepage": "https://github.com/hakubo/touch-action",
-  "moduleType": [
-    "node"
-  ],
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "index.js"
   ]
 }
